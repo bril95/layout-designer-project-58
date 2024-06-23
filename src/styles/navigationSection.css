@@ -1,0 +1,7 @@
+.navigationSection {
+  background-color: var(--primary-dark);
+  width: 100%;
+  height: 900px;
+  margin: 0 auto;
+  position: relative;
+}

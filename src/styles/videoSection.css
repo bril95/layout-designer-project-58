@@ -1,0 +1,28 @@
+.videoSection {
+  width: 100%;
+  background-color: var(--white);
+  background-image: none;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  width: 919px;
+  height: 517px;
+  z-index: 2;
+}
+
+.videoSection__header {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.content_videoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-section__paragraph {
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
