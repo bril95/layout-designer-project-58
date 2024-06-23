@@ -1,4 +1,4 @@
-# landing page "Cognitive distortions"
+# ([landing page "Cognitive distortions"]https://bril95.github.io/layout-designer-project-58/src/)
 
 <code style="font-family: Courier New;">The first project is a landing page describing common cognitive biases in programming. These are the most prevalent issues faced by many developers at various stages of their careers. How to deal with them and what they are will be explained on the landing page.
 </code>
