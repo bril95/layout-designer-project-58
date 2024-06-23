@@ -5,6 +5,8 @@
 }
 
 .video {
+  position: relative;
+  margin-bottom: -100px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   width: 919px;
   height: 517px;
@@ -12,17 +14,20 @@
 }
 
 .videoSection__header {
-  margin-top: 100px;
   margin-bottom: 0;
+  text-align: center;
+  margin-top: 100px
 }
 .content_videoSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 814px;
 }
 
 .video-section__paragraph {
   margin-top: 27px;
   margin-bottom: 30px;
+  text-align: center;
 }

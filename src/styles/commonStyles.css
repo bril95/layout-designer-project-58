@@ -47,6 +47,5 @@ main {
 
 .content {
   width: var(--section-wight);
-  height: 100%;
   margin: 0 auto;
 }
