@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="./styles/headerSection.css">
     <link rel="stylesheet" href="./styles/videoSection.css">
     <link rel="stylesheet" href="./styles/navigationSection.css">
+    <link rel="stylesheet" href="./styles/sectionsBasisStyles.css">
     <link rel="stylesheet" href="./styles/ikeaEffect.css">
 </head>
 <body>
-    <header>
+    <header class="backgroundImg">
         <div class="content content_header">
             <h1>
                 <span class="highlight-orange">Когнитивные</span><br>
                 <span class="highlight-orange">искажения</span><br>
                 в программировании
             </h1>
-            <img src="../images/main.png" alt="Image main" class="image-1">
+            <img src="../images/main.png" alt="Image main" class="image-main">
             <div class="header-about">
                 <div class="paragraphs">
                     <div class="column column-1">
@@ -55,35 +56,35 @@
                         <span class="highlight-orange">5 когнитивных искажений </span>
                         о существовании которых стоит помнить
                     </div>
-                    <a href="/ikea-effect" class="card">
+                    <a href="#ikea-effect" class="card">
                         <div class="card-link">
                             <div class="card-number">1</div>
                             <div class="card-name highlight-orange">Эффект ИКЕА</div>
                             <p class="card-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
                         </div>
                     </a>
-                    <a href="/premature-optimization" class="card">
+                    <a href="#premature-optimization" class="card">
                         <div class="card-link">
                             <div class="card-number">2</div>
                             <div class="card-name highlight-orange">Преждевременная оптимизация</div>
                             <p class="card-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                         </div>
                     </a>
-                    <a href="/distortioOfNovelty" class="card">
+                    <a href="#distortioOfNovelty" class="card">
                         <div class="card-link">
                             <div class="card-number">3</div>
                             <div class="card-name highlight-orange">Искажение новизны</div>
                             <p class="card-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
                         </div>
                     </a>
-                    <a href="/hyperbolicDepreciation" class="card">
+                    <a href="#hyperbolicDepreciation" class="card">
                         <div class="card-link">
                             <div class="card-number">4</div>
                             <div class="card-name highlight-orange">Гиперболическое обесценивание</div>
                             <p class="card-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
                         </div>
                     </a>
-                    <a href="/errorsInPlanning" class="card">
+                    <a href="#errorsInPlanning" class="card">
                         <div class="card-link">
                             <div class="card-number">5</div>
                             <div class="card-name highlight-orange">Ошибка планирования</div>
@@ -93,9 +94,27 @@
                 </nav>
              </div>
          </div>
-         <div class="ikea-effect">
-            <div class="content content_ikea-effect">
-                
+         <div class="ikea-effect backgroundImg" id="ikea-effect">
+            <div class="content content_ikea-effect content_effect">
+                <div class="intro">
+                    <img src="../images/1.png" alt="Image ikea effect" class="imageEffect">
+                    <div class="details">
+                        <span class="text-title">Когнитивные искажения</span>
+                        <h1>Эффект ИКЕА</h1>
+                        <h3>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</h3>
+                    </div>
+                </div>
+                <div class="description">
+                    <span class="descriptionTitle">Как проявляется</span>
+                    <div class="descriptionText">
+                        <div class="column">
+                            <p>Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</p>
+                        </div>
+                        <div class="column">
+                            <p>Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
          </div>
     </main>
