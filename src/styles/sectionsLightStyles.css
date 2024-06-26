@@ -1,0 +1,12 @@
+.light {
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.lightDetailsTitle {
+  color: var(--translucent-dark)
+}
+
+.lightDetails {
+  margin-left: 30px;
+}

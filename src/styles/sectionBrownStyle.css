@@ -1,0 +1,16 @@
+.brown {
+  background-color: var(--brown);
+}
+
+.brownDetailsTitle {
+  color: var(--translucent-white);
+}
+
+.brownColorText {
+  color: var(--light);
+}
+
+.brownDescriptionTitle {
+  background-color: var(--light);
+  color: var(--brown);
+}
