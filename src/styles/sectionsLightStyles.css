@@ -3,10 +3,10 @@
   color: var(--white);
 }
 
-.lightDetailsTitle {
+.light-details-title {
   color: var(--translucent-dark)
 }
 
-.lightDetails {
+.light-details {
   margin-left: 30px;
 }

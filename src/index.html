@@ -12,16 +12,17 @@
     <link rel="stylesheet" href="./styles/sectionStyles.css">
     <link rel="stylesheet" href="./styles/sectionsLightStyles.css">
     <link rel="stylesheet" href="./styles/sectionBrownStyle.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
-    <header class="backgroundImg">
-        <div class="content content_header">
+    <header class="background-img">
+        <div class="content content-header">
             <h1>
                 <span class="highlight-orange">Когнитивные</span><br>
                 <span class="highlight-orange">искажения</span><br>
                 в программировании
             </h1>
-            <img src="../images/main.png" alt="Image main" class="image-main">
+            <img src="../images/main.png" alt="image main" class="image-main">
             <div class="header-about">
                 <div class="paragraphs">
                     <div class="column column-1">
@@ -32,26 +33,28 @@
                         <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
                     </div>
                 </div>
-                <button class="button-details">ПОДРОБНЕЕ</button>
+                <a href="#navigation-section" class="button-details">
+                    ПОДРОБНЕЕ
+                </a>
             </div>
         </div>
     </header>
 
     <main>
-        <div class="videoSection">
-            <div class="content content_videoSection">
-                <h1 class="videoSection__header">
+        <div class="video-section">
+            <div class="content content-videoSection">
+                <h1 class="video-section-header">
                     Что же это такое,<br>
                     <span class="highlight-orange">когнитивные искажения?</span>
                 </h1>
-                <p class="video-section__paragraph">Что такое когнитивные искажения. Petrovna Channel</p>
+                <p class="video-section-paragraph">Что такое когнитивные искажения. Petrovna Channel</p>
                 <iframe class="video" src="https://player.vimeo.com/video/958312817?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                width="919" height="517" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                width="919" height="517" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
                 title="Что такое когнитивные искажения"></iframe>
             </div>
         </div>
-        <div class="navigationSection">
-             <div class="content content_navigationSection">
+        <div class="navigation-section" id="navigation-section">
+             <div class="content content-navigation-section">
                 <nav class="cards">
                     <div class="card card-title">
                         <span class="highlight-orange">5 когнитивных искажений </span>
@@ -85,7 +88,7 @@
                             <p class="card-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
                         </div>
                     </a>
-                    <a href="#errorsInPlanning" class="card">
+                    <a href="#errors-in-planning" class="card">
                         <div class="card-link">
                             <div class="card-number">5</div>
                             <div class="card-name highlight-orange">Ошибка планирования</div>
@@ -95,116 +98,116 @@
                 </nav>
              </div>
          </div>
-        <div class="ikea-effect backgroundImg" id="ikea-effect">
-            <div class="content content_ikea-effect content_effect">
+        <div class="ikea-effect background-img" id="ikea-effect">
+            <div class="content content-ikea-effect content-effect">
                 <div class="intro">
-                    <img src="../images/1.png" alt="Image ikea effect" class="imageEffect">
-                    <div class="details lightDetails">
-                        <span class="text-title lightDetailsTitle">Когнитивные искажения</span>
+                    <img src="../images/1.png" alt="image ikea effect" class="image-effect">
+                    <div class="details light-details">
+                        <span class="text-title light-details-title">Когнитивные искажения</span>
                         <h2>Эффект ИКЕА</h2>
                         <h3>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</h3>
                     </div>
                 </div>
                 <div class="description">
-                    <span class="descriptionTitle light">КАК ПРОЯВЛЯЕТСЯ</span>
-                    <div class="descriptionText">
+                    <span class="description-title light">КАК ПРОЯВЛЯЕТСЯ</span>
+                    <div class="description-text">
                         <div class="column">
-                            <p class="columnText">Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</p>
+                            <p class="column-text">Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</p>
                         </div>
                         <div class="column">
-                            <p class="columnText">Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
+                            <p class="column-text">Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="premature-optimization backgroundImg brown" id="premature-optimization">
-            <div class="content content_ikea-effect content_effect">
+        <div class="premature-optimization background-img brown" id="premature-optimization">
+            <div class="content content-ikea-effect content-effect">
                 <div class="intro">
                     <div class="details">
-                        <span class="text-title brownDetailsTitle">Когнитивные искажения</span>
-                        <h2 class="brownColorText">Преждевременная оптимизация</h2>
-                        <h3 class="brownColorText brownh3">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</h3>
+                        <span class="text-title brown-details-title">Когнитивные искажения</span>
+                        <h2 class="brown-color-text">Преждевременная оптимизация</h2>
+                        <h3 class="brown-color-text brown-h3">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</h3>
                     </div>
-                    <img src="../images/2.png" alt="premature-optimization effect" class="imageEffect">
+                    <img src="../images/2.png" alt="premature-optimization effect" class="image-effect">
                 </div>
                 <div class="description">
-                    <span class="descriptionTitle brownDescriptionTitle">КАК ПРОЯВЛЯЕТСЯ</span>
-                    <div class="descriptionText">
+                    <span class="description-title brown-description-title">КАК ПРОЯВЛЯЕТСЯ</span>
+                    <div class="description-text">
                         <div class="column">
-                            <p class="columnText brownColorText">Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
+                            <p class="column-text brown-color-text">Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
                         </div>
                         <div class="column">
-                            <p class="columnText brownColorText">Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
+                            <p class="column-text brown-color-text">Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="distortion-of-novelt backgroundImg" id="distortion-of-novelt">
-            <div class="content content_distortion-of-novelt content_effect">
+        <div class="distortion-of-novelt background-img" id="distortion-of-novelt">
+            <div class="content content-distortion-of-novelt content-effect">
                 <div class="intro">
-                    <img src="../images/3.png" alt="Image distortion-of-novelt" class="imageEffect">
-                    <div class="details lightDetails">
-                        <span class="text-title lightDetailsTitle">Когнитивные искажения</span>
+                    <img src="../images/3.png" alt="image distortion-of-novelt" class="image-effect">
+                    <div class="details light-details">
+                        <span class="text-title light-details-title">Когнитивные искажения</span>
                         <h2>Искажение новизны</h2>
                         <h3>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</h3>
                     </div>
                 </div>
                 <div class="description">
-                    <span class="descriptionTitle light">КАК ПРОЯВЛЯЕТСЯ</span>
-                    <div class="descriptionText">
+                    <span class="description-title light">КАК ПРОЯВЛЯЕТСЯ</span>
+                    <div class="description-text">
                         <div class="column">
-                            <p class="columnText">Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
+                            <p class="column-text">Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
                         </div>
                         <div class="column">
-                            <p class="columnText">Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
+                            <p class="column-text">Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hyperbolic-depreciation backgroundImg brown" id="hyperbolic-depreciation">
-            <div class="content content_hyperbolic-depreciation content_effect">
+        <div class="hyperbolic-depreciation background-img brown" id="hyperbolic-depreciation">
+            <div class="content content-hyperbolic-depreciation content-effect">
                 <div class="intro">
                     <div class="details">
-                        <span class="text-title brownDetailsTitle">Когнитивные искажения</span>
-                        <h2 class="brownColorText">Гиперболическое обесценивание</h2>
-                        <h3 class="brownColorText brownh3">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</h3>
+                        <span class="text-title brown-details-title">Когнитивные искажения</span>
+                        <h2 class="brown-color-text">Гиперболическое обесценивание</h2>
+                        <h3 class="brown-color-text brown-h3">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</h3>
                     </div>
-                    <img src="../images/4.png" alt="hyperbolic-depreciation effect" class="imageEffect">
+                    <img src="../images/4.png" alt="hyperbolic-depreciation effect" class="image-effect">
                 </div>
                 <div class="description">
-                    <span class="descriptionTitle brownDescriptionTitle">КАК ПРОЯВЛЯЕТСЯ</span>
-                    <div class="descriptionText">
+                    <span class="description-title brown-description-title">КАК ПРОЯВЛЯЕТСЯ</span>
+                    <div class="description-text">
                         <div class="column">
-                            <p class="columnText brownColorText">Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание.</p>
+                            <p class="column-text brown-color-text">Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание.</p>
                         </div>
                         <div class="column">
-                            <p class="columnText brownColorText">Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
+                            <p class="column-text brown-color-text">Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="errors-in-planning backgroundImg" id="errors-in-planning">
-            <div class="content content_errors-in-planning content_effect">
+        <div class="errors-in-planning background-img" id="errors-in-planning">
+            <div class="content content-errors-in-planning content-effect">
                 <div class="intro">
-                    <img src="../images/4.png" alt="Image errors-in-planning" class="imageEffect">
-                    <div class="details lightDetails">
-                        <span class="text-title lightDetailsTitle">Когнитивные искажения</span>
+                    <img src="../images/4.png" alt="Image errors-in-planning" class="image-effect">
+                    <div class="details light-details">
+                        <span class="text-title light-details-title">Когнитивные искажения</span>
                         <h2>Ошибка планирования</h2>
                         <h3>Неправильно рассчитывать время необходимое для завершения задачи.</h3>
                     </div>
                 </div>
                 <div class="description">
-                    <span class="descriptionTitle light">КАК ПРОЯВЛЯЕТСЯ</span>
-                    <div class="descriptionText">
+                    <span class="description-title light">КАК ПРОЯВЛЯЕТСЯ</span>
+                    <div class="description-text">
                         <div class="column">
-                            <p class="columnText">Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
+                            <p class="column-text">Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
                         </div>
                         <div class="column">
-                            <p class="columnText">Это отлично выражается в старом афоризме:<br><br>
+                            <p class="column-text">Это отлично выражается в старом афоризме:<br><br>
                                 Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
                         </div>
                     </div>
@@ -212,8 +215,33 @@
             </div>
         </div>
     </main>
-
     <footer>
+        <div class="emailFrame">
+            <h3 class="subscribe-updates">Хотите узнать больше?<br>Подпишитесь на обновления</h3>
+            <div>
+                <p class="email">Электронная почта</p>
+                <div class="email-field">
+                    <input type="email" id="email-input" class="email-input" placeholder="Ваша электронная почта">
+                    <button class="email-button"></button>
+                </div>
+                <p class="signup-agreement">Подписываясь, вы принимаете
+                    <a href="#" class="signup-agreement-link">
+                        <u>правила сервиса</u>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <p class="author">© 2024 Bril Vadim</p>
+        <p class="article-reference link">По материалам статьи 
+            <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" class="medium-link">
+                <u>Yash Ranadive Cognitive Biases in Programming</u>
+            </a>
+        </p>
+        <p class="article-hexlet link">
+            <a href="https://ru.hexlet.io/" class="hexlet-link">
+                <u>Курсы программирования Hexlet</u>
+            </a>
+        </p>
     </footer>
 
 </body>

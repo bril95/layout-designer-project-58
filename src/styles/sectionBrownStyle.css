@@ -2,19 +2,19 @@
   background-color: var(--brown);
 }
 
-.brownDetailsTitle {
+.brown-details-title {
   color: var(--translucent-white);
 }
 
-.brownColorText {
+.brown-color-text {
   color: var(--light);
 }
 
-.brownDescriptionTitle {
+.brown-description-title {
   background-color: var(--light);
   color: var(--brown);
 }
 
-.brownh3 {
+.brown-h3 {
   padding-right: 30px;
 }

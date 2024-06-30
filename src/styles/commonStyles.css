@@ -50,7 +50,7 @@ main {
   margin: 0 auto;
 }
 
-.backgroundImg::before {
+.background-img::before {
   position: absolute;
   display: block;
   width: 100%;
