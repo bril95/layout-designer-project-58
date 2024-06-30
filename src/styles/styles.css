@@ -106,13 +106,13 @@ main {
 header {
   width: 100%;
   overflow: hidden;
-  min-height: 914px;
   position: relative;
 }
 
 .content-header {
   position: relative;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .image-main {
@@ -134,7 +134,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 210px;
+  margin-top: 200px;
 }
 
 .paragraphs {
