@@ -111,8 +111,10 @@ header {
 
 .content-header {
   position: relative;
+  box-sizing: border-box;
   padding-top: 100px;
   padding-bottom: 100px;
+  height: 914px
 }
 
 .image-main {
