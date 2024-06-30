@@ -134,7 +134,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 205px;
+  margin-top: 210px;
 }
 
 .paragraphs {
@@ -169,11 +169,6 @@ header {
   border: 0;
   font-size: var(--main-font-size);
   line-height: var(--main-line-height);
-}
-
-.first-page {
-  background-color: var(--white);
-  background-image: none;
 }
 
 /*Video section*/
