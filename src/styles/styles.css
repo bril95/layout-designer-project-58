@@ -321,8 +321,9 @@ a {
 }
 
 .description-title {
-  height: 26px;
+  display: block;
   margin-bottom: 20px;
+  height: 26px;
   box-sizing: border-box;
   margin-top: 0;
   font-family: "OpenSans", sans-serif;
