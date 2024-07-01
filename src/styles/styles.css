@@ -114,7 +114,6 @@ header {
   box-sizing: border-box;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 920px
 }
 
 .image-main {
@@ -275,13 +274,13 @@ a {
   margin-right: 0;
 }
 
-.card-text {
-  margin-top: 12px;
+.card:nth-child(n+4) {
+  margin-bottom: 0;
+  height: 348px;
 }
 
-.card:nth-child(n+4) {
-  height: 348px;
-  margin-bottom: 0;
+.card-text {
+  margin-top: 12px;
 }
 
 /*Sections styles*/
