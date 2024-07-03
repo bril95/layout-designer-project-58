@@ -59,7 +59,7 @@ p {
   font-size: var(--main-font-size);
   line-height: var(--main-line-height);
   color: var(--main-color);
-  margin-bottom: 0;
+  margin-bottom: 16px;
   margin-top: 0;
 }
 
@@ -321,7 +321,6 @@ a {
 }
 
 .description-title {
-  display: block;
   margin-bottom: 20px;
   height: 26px;
   box-sizing: border-box;
@@ -406,15 +405,16 @@ footer {
 }
 
 .email-frame {
+  box-sizing: border-box;
   background-color: var(--primary-dark);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: var(--section-wight);
   padding: 0 55px;
 }
 
 .subscribe-updates {
-  margin-top: 55px;
+  margin: 55px 0;
   color: var(--white);
 }
 
@@ -442,14 +442,13 @@ a {
   background-color: var(--white);
   box-sizing: border-box;
   height: 50px;
-  width: 423px;
   border: 1px solid #E3E3E3;
   padding-left: 15px;
   padding-top: 17px;
   padding-bottom: 18px;
   color: #757575;
   font-size: 13.1px;
-  
+  flex-grow: 1
 }
 
 .email-field {
@@ -465,6 +464,10 @@ a {
   width: 70px;
   z-index: 2;
   position: relative;
+}
+
+.email-form {
+  flex: 0 0 calc(50% - 15px);
 }
 
 .email-button::before {
@@ -486,13 +489,13 @@ a {
 }
 
 .author {
-  margin-top: 76px;
+  margin-top: 80px;
   margin-bottom: 0;
   font-size: 14px;
 }
 
 .link {
   font-size: 14px;
-  margin-top: 16px;
+  margin-top: 20px;
   margin-bottom: 0;
 }
