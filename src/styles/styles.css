@@ -171,6 +171,8 @@ header {
 /*Video section*/
 
 .video-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
   width: 100%;
   background-color: var(--white);
   background-image: none;
@@ -179,7 +181,7 @@ header {
 
 .video {
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: -200px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   width: 919px;
   height: 517px;
@@ -191,7 +193,6 @@ header {
   margin-bottom: 30px;
   margin-top: 0;
   text-align: center;
-  padding-top: 100px;
 }
 .content-video-section {
   display: flex;
@@ -210,16 +211,6 @@ header {
   height: 100%;
 }
 
-.black-box {
-  position: absolute;
-  padding-bottom: 100px;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background-color: var(--primary-dark);
-}
-
 /*Navigation styles*/
 
 .navigation-section {
@@ -229,6 +220,7 @@ header {
   margin: 0 auto;
   position: relative;
   padding-bottom: 100px; 
+  padding-top: 200px;
 }
 
 a {
