@@ -100,6 +100,10 @@ main {
   content: "";
 }
 
+.button:hover {
+  background-color: #EA7600;
+}
+
 /*Header styles*/
 
 header {
@@ -172,6 +176,7 @@ header {
 
 .video-section {
   padding-top: 100px;
+  padding-bottom: 100px;
   width: 100%;
   background-color: var(--white);
   background-image: none;
@@ -185,6 +190,7 @@ header {
   height: 517px;
   z-index: 2;
   border: none;
+  margin-bottom: -200px;
 }
 
 .video-section-header {
@@ -209,15 +215,6 @@ header {
   height: 100%;
 }
 
-.black-box {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  background-color: var(--primary-dark);
-}
-
 /*Navigation styles*/
 
 .navigation-section {
@@ -227,7 +224,7 @@ header {
   margin: 0 auto;
   position: relative;
   padding-bottom: 100px; 
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 a {
@@ -290,6 +287,16 @@ a {
 
 .card-text {
   margin-top: 12px;
+}
+
+.card:hover:not(:first-child) {
+  background-color: var(--primary);
+}
+
+.card:hover .card-number,
+.card:hover .card-name,
+.card:hover .card-text {
+    color: var(--white);
 }
 
 /*Sections styles*/
