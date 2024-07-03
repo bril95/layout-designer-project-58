@@ -174,11 +174,11 @@ header {
   width: 100%;
   background-color: var(--white);
   background-image: none;
+  position: relative;
 }
 
 .video {
   position: relative;
-  margin-bottom: -100px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   width: 919px;
   height: 517px;
@@ -209,6 +209,15 @@ header {
   height: 100%;
 }
 
+.black-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: var(--primary-dark);
+}
+
 /*Navigation styles*/
 
 .navigation-section {
@@ -218,7 +227,7 @@ header {
   margin: 0 auto;
   position: relative;
   padding-bottom: 100px; 
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 a {
