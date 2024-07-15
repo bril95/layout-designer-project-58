@@ -176,7 +176,7 @@ header {
 
 .video-section {
   padding-top: 100px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
   width: 100%;
   background-color: var(--white);
   background-image: none;
