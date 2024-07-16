@@ -3,19 +3,19 @@
   --main-line-height: 1.6em;
   --main-color: #2a2626;
 
-/* h */
+  /* h */
 
   --h-line-height: 1.2em;
   --h1-font-size: 72px;
   --h2-font-size: 60px;
   --h3-font-size: 34px;
 
-/* section */
+  /* section */
 
   --section-wight: 1110px;
   --section-margin: 100px auto;
 
-/* colors */
+  /* colors */
 
   --white: #fff;
   --translucent-white: #d7ccc0;
